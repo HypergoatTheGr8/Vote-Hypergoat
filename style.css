@@ -1,0 +1,343 @@
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: 'Comfortaa', cursive;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.banner {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/NewImage-1.png);
+  background-size: cover;
+  background-position: center;
+}
+.banner2{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url(images/lagoon-buildings.png);
+  background-size: cover;
+  background-position: center;
+}
+/* ------------NAVBAR-------------- */
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 120px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #7300ff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+  width: 100%;
+}
+/* --------------------NAVBAR END------------------ */
+/* --------------------NAVBAR TWO------------------ */
+.navbar2 {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo2 {
+  width: 120px;
+  cursor: pointer;
+}
+.navbar2 ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar2 ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+
+}
+
+.navbar2 ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #7300ff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar2 ul li:hover::after {
+  width: 100%;
+}
+/* --------------------NAVBAR TWO END------- */
+/* ----------------------NAVBAR THREE---------- */
+.navbar3 {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  background: #ff000063;
+  justify-content: space-between;
+}
+
+.logo3 {
+  width: 120px;
+  cursor: pointer;
+}
+.navbar3 ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+
+.navbar3 ul li a {
+  text-decoration: none;
+  color: #000000;
+  text-transform: uppercase;
+
+}
+
+.navbar3 ul li::after {
+  content: '';
+  height: 3px;
+  width: 0%;
+  background: #7300ff;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+
+.navbar3 ul li:hover::after {
+  width: 100%;
+}
+/* ---------------------NAVBAR 3 END */
+.text-box {
+  width: 100%;
+  position: relative;
+  top: 20%;
+  transform: translateY(-50);
+  text-align: center;
+  color: white;
+  scroll-snap-align: center;
+}
+
+.text-box h2 {
+  font-size: 70px;
+  margin-top: 80px;
+}
+
+.text-box p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25PX;
+}
+
+.button1 {
+  width: 200px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: bold;
+  border: 4px solid #7300ff;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  left: 65px;
+}
+
+span {
+  background: #7300ff;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  border-radius: 25px;
+  z-index: -1;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  width: 100%;
+}
+
+.button1:hover {
+  border: #7300ff;
+  background: #7300ff;
+  transition: 0.5s;
+  position: relative;
+  bottom: -3px;
+  left: 5;
+}
+/* button2 */
+.button2 {
+  width: 150px;
+  padding: 15px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border-radius: 25px;
+  font-weight: normal;
+  border: 2px solid #5300b8;
+  background: transparent;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  top: 50px;
+  left: 400px;
+}
+
+.button2:hover span {
+  width: 100%;
+}
+
+.button2:hover {
+  border: #7300ff;
+  background: #7300ff;
+  transition: 0.5s;
+  position: relative;
+  bottom: -3px;
+  left: 5;
+}
+/* button2 end */
+/* ---you_can_help */
+.you_can_help{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  top: 200px;
+  scroll-snap-align: center;
+}
+.you_can_help h1{
+  color: black;
+  font-size: 36px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.you_can_help2{
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  position: relative;
+  top: 200px;
+  scroll-snap-align: center;
+}
+.you_can_help2 h1{
+  color: white;
+  font-size: 36px;
+  font-weight: 600;
+  text-decoration: underline;
+}
+p{
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.row{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.help-columns{
+  flex-basis: 31%;
+  background: #6c0080;
+  padding: 5px 1px;
+  box-sizing: border-box;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  transition: 0.5s;
+  color: white;
+}
+.p{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+  color: white;
+}
+.help-columns:hover{
+  box-shadow: 0 0 50px 0px #7300ff;
+}
+.help-columns p{
+  color: white;
+}
+@media(max-width: 700px){
+  .row{
+    flex-direction:column;
+  }
+}
+.speech{
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 50px;
+  scroll-snap-align: center;
+}
+.speech p{
+  color:black;
+  position: relative;
+  top: 600px;
+}
+.icons{
+  color: black;
+}
+.speech h1{
+  position: relative;
+  top: 600px;
+  color: black;
+}
+.body{
+  width: 350px;
+  height: 200px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+.speech-image{
+  background-color: #ff000063;
+}
