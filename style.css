@@ -273,7 +273,7 @@ span {
   font-weight: 600;
   text-decoration: underline;
   position: relative;
-  bottom: 100px;
+  bottom: 150px;
 }
 p{
   color: rgb(255, 255, 255);
@@ -296,7 +296,7 @@ p{
   border-radius: 10px;
   transition: 0.5s;
   position: relative;
-  bottom: 100px;
+  bottom: 150px;
   color: white;
 }
 .p{
