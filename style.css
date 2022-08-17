@@ -257,6 +257,8 @@ span {
   font-size: 36px;
   font-weight: 600;
   text-decoration: underline;
+  bottom: 150px;
+  position: relative;
 }
 .you_can_help2{
   width: 80%;
